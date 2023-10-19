@@ -50,14 +50,14 @@ class DatabaseManager:
         """
         try:
             self.cur.execute("""CREATE TABLE IF NOT EXISTS auth(id INTEGER PRIMARY KEY,token VARCHAR(255));""")
-            self.cur.execute("""CREATE TABLE IF NOT EXISTS config(id INTEGER PRIMARY KEY,message_logger VARCHAR(255),antistaff VARCHAR(255),prefix VARCHAR(255),antigrabify VARCHAR(255),antianonexploit VARCHAR(255),afk VARCHAR(255));""")
+            self.cur.execute("""CREATE TABLE IF NOT EXISTS config(id INTEGER PRIMARY KEY,message_logger VARCHAR(255),antistaff VARCHAR(255),prefix VARCHAR(255),afk VARCHAR(255));""")
             self.cur.execute("""CREATE TABLE IF NOT EXISTS blacklist(id INTEGER PRIMARY KEY,member_id VARCHAR(255));""")
             self.cur.execute("""CREATE TABLE IF NOT EXISTS groupchat(id INTEGER PRIMARY KEY,member_id VARCHAR(255));""")
             self.cur.execute("""CREATE TABLE IF NOT EXISTS webhooks(id INTEGER PRIMARY KEY,message_wh VARCHAR(255),sniper_wh VARCHAR(255));""")
-            self.cur.execute("""SELECT message_logger, antistaff, Afk, prefix, antigrabify, antianonexploit FROM config;""")
+            self.cur.execute("""SELECT message_logger, antistaff, Afk, prefix FROM config;""")
             row = self.cur.fetchone()
             if row is None:
-                self.cur.execute("""INSERT INTO config (message_logger,antistaff,prefix,antigrabify,antianonexploit,afk) VALUES ('off','0','.','off','off','off');""")
+                self.cur.execute("""INSERT INTO config (message_logger,antistaff,prefix,afk) VALUES ('off','0','.','off');""")
             self.cur.execute("""SELECT message_wh, sniper_wh FROM webhooks;""")
             row = self.cur.fetchone()
             if row is None:
