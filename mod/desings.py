@@ -21,7 +21,6 @@ class LethalLogo:
                 if red > 255:
                     red = 255
         return faded
-
     def main_logo(self):
         os.system("cls")
         logo = """
@@ -33,7 +32,7 @@ class LethalLogo:
         ╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
         ╔═══════════════════════════════════════════════╗
         ║   TOS: Lethal Holds No Responsibility At ALL! ║ 
-        ║      Version: 2.0 | https://lethals.org       ║
+        ║    Version: 2.0 | github.com/LethalServices   ║
         ╚═══════════════════════════════════════════════╝
         """
         print(self.purplepink(logo))
