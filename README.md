@@ -40,15 +40,6 @@
 
 Why pay for features others charge you for when you can get them for free?
 
-Some Features:
-* Gain an unfair advantage with Lethal's fully injectable game cheats, all available through our self-bot.
-* Lethal's powerful self-bot provides advanced admin and moderation detection capabilities upon voice join.
-* Take admin trolling to the next level with Lethal's raiding features, built for ultimate mischief and mayhem.
-* Protect your account with Lethal's reliable account logs and robust account protection.
-
-Lethal is committed to delivering cutting-edge features and keeping our software up-to-date. Stay tuned for even more exciting updates in the future!
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
