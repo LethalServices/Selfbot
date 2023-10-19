@@ -4,14 +4,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/LethalServices">
     <img src="https://cdn.discordapp.com/attachments/1045896845785829385/1133433320286470294/Lethal.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Lethal SelfBot</h3>
 
   <p align="center">
-    A unique power discord self bot
+    A unique power discord self-bot
     <br />
     <a href="https://discord.gg/rySbUJS64t"><strong>Explore the Dscord »</strong></a>
     <br />
