@@ -21,6 +21,7 @@ class LethalLogo:
                 if red > 255:
                     red = 255
         return faded
+        
     def main_logo(self):
         os.system("cls")
         logo = """
