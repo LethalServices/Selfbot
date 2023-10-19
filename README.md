@@ -54,7 +54,7 @@ Lethal is committed to delivering cutting-edge features and keeping our software
 
 ### Built With
 
-* Python
+* Python [64](https://www.python.org/ftp/python/3.11.5/python-3.11.5-amd64.exe) | [32](https://www.python.org/ftp/python/3.11.5/python-3.11.5.exe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
