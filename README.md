@@ -38,9 +38,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Features people make you pay for for 
+Why pay for features that others charge you for when you can get them for free?
 
-Features:
+Some Features:
 * Gain an unfair advantage with Lethal's fully injectable game cheats, all available through our selfbot.
 * Lethal's powerful selfbot provides advanced admin and moderation detection capabilities upon voice join.
 * Take admin trolling to the next level with Lethal's raiding features, built for ultimate mischief and mayhem.
