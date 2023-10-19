@@ -57,7 +57,7 @@ class DatabaseManager:
             self.cur.execute("""SELECT message_logger, antistaff, Afk, prefix FROM config;""")
             row = self.cur.fetchone()
             if row is None:
-                self.cur.execute("""INSERT INTO config (message_logger,antistaff,prefix,afk) VALUES ('off','0','.','off');""")
+                self.cur.execute("""INSERT INTO config (message_logger,antistaff,prefix,afk) VALUES ('off','off','.','off');""")
             self.cur.execute("""SELECT message_wh, sniper_wh FROM webhooks;""")
             row = self.cur.fetchone()
             if row is None:
