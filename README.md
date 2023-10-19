@@ -38,11 +38,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Why pay for features that others charge you for when you can get them for free?
+Why pay for features others charge you for when you can get them for free?
 
 Some Features:
-* Gain an unfair advantage with Lethal's fully injectable game cheats, all available through our selfbot.
-* Lethal's powerful selfbot provides advanced admin and moderation detection capabilities upon voice join.
+* Gain an unfair advantage with Lethal's fully injectable game cheats, all available through our self-bot.
+* Lethal's powerful self-bot provides advanced admin and moderation detection capabilities upon voice join.
 * Take admin trolling to the next level with Lethal's raiding features, built for ultimate mischief and mayhem.
 * Protect your account with Lethal's reliable account logs and robust account protection.
 
@@ -62,9 +62,9 @@ Lethal is committed to delivering cutting-edge features and keeping our software
 ## Getting Started
 
 ### Prerequisites
-You will need to run this in oder to use the bot. But this is only used if it doesn't automatically install.
+You'll need to run this in order to use the bot.
 
-* Installing Packges
+* Installing Packages
   ```sh
   pip install -r requirements.txt
   ```
@@ -95,7 +95,7 @@ Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-The libray we are currently using.
+The library we are currently using.
 
 * _Selfbot libray [discord-selfbot](https://github.com/dolfies/discord.py-self)_
 
