@@ -2,7 +2,7 @@ from discord.ext import commands
 
 from mod.error import CustomLogger
 
-import discord
+import discord, logging
 
 class HelpCog(commands.Cog):
     def __init__(self, bot):
