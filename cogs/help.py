@@ -45,8 +45,7 @@ class HelpCog(commands.Cog):
                            f"`{self.bot.command_prefix} unban <member>` - Unban a member.\n"
                            f"`{self.bot.command_prefix} purge <amount>` - Purge a channel.\n"
                            f"`{self.bot.command_prefix} setnick <name>` - Set members a nickname.\n"
-                           f"`{self.bot.command_prefix} clone` - Nuke a channel.\n"
-                           f"`{self.bot.command_prefix} raid` - Nuke a server.")
+                           f"`{self.bot.command_prefix} clone` - Nuke a channel.\n")
 
         elif str(menu).lower() == "database":
             # Database commands menu
