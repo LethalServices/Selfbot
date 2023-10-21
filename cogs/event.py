@@ -7,7 +7,7 @@ from mod.notifier import notify
 from mod.error import CustomLogger
 from mod.db import DatabaseManager
 
-import discord, os, subprocess, socket, aiohttp, logging, re, datetime, httpx, asyncio
+import requests, discord, subprocess, aiohttp, logging, re, datetime, httpx, asyncio
 
 class EventCog(commands.Cog):
     def __init__(self, bot):
