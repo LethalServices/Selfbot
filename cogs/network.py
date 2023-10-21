@@ -1,4 +1,3 @@
-from colorama import Fore
 from discord.ext import commands
 
 from mod.error import CustomLogger
@@ -38,28 +37,3 @@ class NetworkCog(commands.Cog):
             await ctx.send(f"***Lethals | IP Ping***\n`{ping_result.stdout.decode()}`")
         except:
             self.logger.error(f"Invalid ip.")
-
-    @commands.command()
-    async def undb(self, ctx):
-        f_path = "./Modules/database/Username"
-        unames = []
-        for fn in os.listdir(f_path):
-            unames.append(fn)
-
-        usernames_database = "\n".join(unames)
-        await ctx.send(f"***Lethals| Username Database***\n`{usernames_database}`")
-
-    @commands.command()
-    async def suser(self, ctx, lUser):
-        await ctx.message.delete()
-        msg = await ctx.send(f"Please wait I am gathering all the information on {lUser}")
-        if os.path.exists(f'{os.getcwd()}\\Modules\\Malicious\\OSINT\\sherlock\\sherlock\\'):
-            output = os.popen(f"python {os.getcwd()}\\Modules\\Malicious\\OSINT\\sherlock\\sherlock.py {lUser}").read()
-            await msg.delete()
-            await ctx.send(f"***Lethals | Username Lookup***\n`{output}`")
-        else:
-            os.system('git clone https://github.com/sherlock-project/sherlock.git')
-            if os.path.exists(f'{os.getcwd()}\\Modules\\Malicious\\OSINT\\sherlock\\sherlock'):
-                output = os.popen(f"python {os.getcwd()}\\Modules\\Malicious\\OSINT\\sherlock\\sherlock\\sherlock.py {lUser}").read()
-                await msg.delete()
-                await ctx.send(f"***Lethals | Username Lookup***\n`{output}`")
