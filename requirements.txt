@@ -4,3 +4,4 @@ httpx==0.23.0
 discord.py-self==2.0.0
 win10toast==0.9
 pytube==11.0.0
+colorma==0.4.6
