@@ -1,7 +1,7 @@
 from pytube import YouTube
 from discord.ext import commands
 
-import discord, subprocess, OS
+import discord, subprocess, os
 
 class MusicCog(commands.Cog):
     def __init__(self, bot):
