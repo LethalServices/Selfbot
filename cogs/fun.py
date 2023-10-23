@@ -8,7 +8,7 @@ import discord, json, logging, requests
 class FunCog(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.custom_logger = CustomLogger('Events', log_level=logging.INFO)
+        self.custom_logger = CustomLogger('Fun', log_level=logging.INFO)
         self.logger = self.custom_logger.get_logger()
 
     @commands.command()
