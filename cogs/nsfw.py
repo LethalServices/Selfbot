@@ -3,7 +3,7 @@ from discord.ext import commands
 from mod.error import CustomLogger
 from mod.db import DatabaseManager
 
-import discord, json, logging
+import discord, json, logging, requests
 
 class NsfwCog(commands.Cog):
     def __init__(self, bot):
