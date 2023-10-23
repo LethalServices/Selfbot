@@ -3,7 +3,7 @@ from discord.ext import commands
 from mod.error import CustomLogger
 from mod.db import DatabaseManager
 
-import discord, json, requests, os, logging
+import discord, json, requests, os, logging, asyncio
 
 class MaliciousCog(commands.Cog):
     def __init__(self, bot):
