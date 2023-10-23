@@ -1,14 +1,10 @@
 from discord.ext import commands
 
-from mod.error import CustomLogger
-
 import discord, logging
 
 class HelpCog(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.custom_logger = CustomLogger('Help', log_level=logging.INFO)
-        self.logger = self.custom_logger.get_logger()
 
     @commands.command()
     async def help(self, ctx, menu=None):
