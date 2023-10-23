@@ -1,5 +1,4 @@
 requests==2.26.0
-discord.py==2.1.2
 aiohttp==3.8.1
 httpx==0.23.0
 discord.py-self==2.0.0
