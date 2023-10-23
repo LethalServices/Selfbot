@@ -14,7 +14,7 @@ class AccountCog(commands.Cog):
     @commands.command()
     async def whois(self, ctx, member: discord.Member):
         await ctx.message.delete()
-        await ctx.send(f"***Lethals | Whois {member.mention}***\n```ini\n[Member ID] {member.id}\n[Display Name] {member.name}\n[Created Account On] {member.created_at.strftime('%a, %#d %B %Y, %I:%M %p UTC')}\n[Banner URL] {member.banner_url}\n[Member color] {member.color}\n[Profile Picture URL] {member.display_avatar.url} ```")
+        await ctx.send(f"***Lethals | Whois {member.mention}***\n```ini\n[Member ID] {member.id}\n[Display Name] {member.name}\n[Created Account On] {member.created_at.strftime('%a, %#d %B %Y, %I:%M %p UTC')}\n[Member color] {member.color}\n[Profile Picture URL] {member.display_avatar.url} ```")
 
     @commands.command()
     async def status(self, ctx, option):
