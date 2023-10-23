@@ -36,14 +36,6 @@ class MaliciousCog(commands.Cog):
     @commands.command()
     async def raid(self, ctx):
         await ctx.message.delete()
-        lethalkey = self.db_manager.execute_read_one_query(f"SELECT auth_token FROM auth;")
-        response = requests.get(f"https://lethals.org/api/server_blacklist/{lethalkey[0]}")
-        data = response.json()
-        ids = data.get('guildid', [])
-        for i in ids:
-            if ctx.guild.id == int(i):
-                self.logger.info('You cannot raid this server.')
-                return
         self.logger.info('Please wait this may take a minute...')
         for c in ctx.guild.channels:
             try:
