@@ -1,3 +1,4 @@
+from random import choice
 from discord.ext import commands
 
 from mod.error import CustomLogger
