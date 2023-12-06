@@ -88,7 +88,7 @@ Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 
 The library we are currently using.
 
-* _Selfbot libray [discord-selfbot](https://github.com/dolfies/discord.py-self)_
+* _Selfbot libray [discord-selfbot](https://github.com/UrFingPoor/discord.py-self)_
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
